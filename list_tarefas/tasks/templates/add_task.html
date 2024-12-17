@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/add.css'%}">
+    <title>Adicior Tarefa</title>
+</head>
+<body>
+    <h1>Adicionar tarefa</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+        <label for="title">Titulo</label>
+        <input type="text" id="title" name="title" required><br>
+        <label for="description">Descrição</label>
+        <textarea id="descrição" name="description"> </textarea><br>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <a href="{% url 'tasks_list' %}">Voltar</a>
+
+</body>
+</html>

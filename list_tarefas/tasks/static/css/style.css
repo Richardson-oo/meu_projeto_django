@@ -1,0 +1,39 @@
+body {
+    background-color:rgb(246, 236, 210); /* Cor clara para fundo */
+}
+
+h1 {
+    align-items: center;
+    font-family: 'Times New Roman', Times, sans-serif !important;
+    color: #007bff; /* Cor azul */
+    text-align: center; /* Centraliza o texto */
+    font-size: 3rem; /* Tamanho grande */
+    font-weight: bold; /* Texto em negrito */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 30px; /* Espaço abaixo do título */
+}
+
+.list-group-item {
+    border: none; /* Remove bordas das tarefas */
+    padding: 1rem;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef; /* Efeito hover */
+}
+
+.btn-success {
+    border-radius: 25px;
+}
+
+.btn-sm{
+    padding: 0.1rem 1rem;
+    font-size: 0.800rem;
+}
+
+.status-conteiner{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

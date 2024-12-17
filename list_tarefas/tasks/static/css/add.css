@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(246, 236, 210)
+}
+
+/* Título */
+h1 {
+    font-family: 'Times New Roman', Times, sans-serif !important;
+    color: #007bff; /* Cor azul */
+    text-align: center; /* Centraliza o texto */
+    font-size: 3rem; /* Tamanho grande */
+    font-weight: bold; /* Texto em negrito */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 30px; /* Espaço abaixo do título */
+}
+
+/* Estilos gerais do formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o formulário na tela */
+    padding: 20px;
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para os labels */
+label {
+    display: block; /* Coloca os labels em uma linha */
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para o campo de texto (input e textarea) */
+input[type="text"], textarea {
+    width: 100%; /* Faz os campos preencherem toda a largura disponível */
+    padding: 12px;
+    margin-bottom: 20px; /* Espaçamento entre os campos */
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e bordas no tamanho total do campo */
+}
+
+/* Estilo para o botão de submit */
+button[type="submit"] {
+    background-color: #007bff; /* Cor do botão */
+    color: white; /* Cor do texto no botão */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    cursor: pointer; /* Cursor de mãozinha para indicar interatividade */
+    transition: background-color 0.3s ease; /* Efeito de transição na cor */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Cor mais escura quando o botão é hover */
+}
+
+/* Estilo para o link "Voltar" */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3; /* Cor mais escura quando o link é hover */
+}
+
+
